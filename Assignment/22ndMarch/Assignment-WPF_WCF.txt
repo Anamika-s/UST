@@ -1,0 +1,10 @@
+                  Assignment
+
+Create a Project in WPF
+Use Grid Layout
+Create WCF Service Add methods for 
+add numbers
+combine strings
+
+Call this Service & Methods from WPF
+

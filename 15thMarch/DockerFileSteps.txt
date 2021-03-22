@@ -1,0 +1,54 @@
+Steps
+
+Create Dockerfile
+
+sudo nano Dockerfile
+
+
+FROM ubuntu
+RUN apt-get update
+RUN apt-get -y install apache2
+ADD . /var/www/html
+ENTRYPOINT apachectl -D FOREGROUND
+ENV name Devops
+
+
+
+
+Create a html file
+
+
+
+Build Dockerfile
+We need docker to be installed first
+sudo apt update
+sudo apt install docker.io
+
+sud docker build . -t newdockerfile  
+Here . means current location
+It will execute all commans in DockerFile
+It will create image
+To check 
+sudo docker images
+
+To run it
+sudo docker run --it -p84:80 -d newdockerfile
+To see container
+ sudo docker ps
+
+We can see in browser , apache will be seen at port 84
+Now lets go inside container
+
+ sudo docker  exec -it 14399e851fc4 bash
+root@14399e851fc4:/#
+
+And u will see all the files from ur machine in the container
+ 
+root@14399e851fc4:/# cd /var/www/html
+root@14399e851fc4:/var/www/html# ls
+Dockerfile  index.html  practice.html
+
+
+sudo usermode -aG docker $USER > To run docker commads without using sudo
+ 
+

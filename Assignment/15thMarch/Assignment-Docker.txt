@@ -1,0 +1,17 @@
+		Assignment - 1
+ 
+
+1.On your machine, download ubuntu image
+2.Check the images 
+3.Create 2 containers out of this image
+Display them
+4.Go inside 1st container, add a folder named app1 inside that
+5.Go inside 2nd container, add a folder named app2 inside that
+6.upload them back to docker hub as app1 & app2
+7.Remove all the images that you have downlaoded
+8.Pull these images app1 & app2 from dockerhub
+9.Create containeers out of these two images
+10.Check your app folders inside these containers
+11. Stop all containers
+12. Remove all containers
+13. Remove all images

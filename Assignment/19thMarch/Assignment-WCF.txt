@@ -1,0 +1,39 @@
+1. Create a WCF Library
+Interface ICommonService1
+WIth methods 
+CheckForEven(int)
+CheckForPrime(int)
+This mwthod will be in ICommonService2 
+GetTable(int)
+
+How many endpoints should be there
+Use one binding basicHttpBinding
+
+Host it on Console Application
+
+Consume it in Console Project 
+
+Handle the following errors 
+numbers that you pass should be only from 2 to 10
+
+We should get appropriate message
+
+2. Create a WCF Service application
+
+Add a class Employee
+EmployeeID
+Name
+Dept
+Salary
+
+Add two method
+GetEmployeeById
+GetAllEmployees
+
+Call them from Client project
+
+
+We do not want to pass Salary from here. How do we do that?
+
+Test your both Services on wcfClient
+

@@ -1,0 +1,7 @@
+      
+                  Assignment
+
+Register services for Items & Suppliers from Assignment2 on Consul
+
+Change the port numbers of the servives & observe it in the Consul
+

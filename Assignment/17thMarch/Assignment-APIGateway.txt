@@ -1,0 +1,10 @@
+                  Assignment
+
+Create two services for Items & Suppliers
+Item : id, name , qty_stco, description
+Supplier : id, name, address , city
+
+
+Create two dofferent services
+
+Create API Gateway, use it to access these two services
